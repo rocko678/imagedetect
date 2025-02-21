@@ -9,9 +9,9 @@ function App() {
   return (
     <>
       <div>
-        <Logo />
-        <Navigation />
         
+        <Navigation />
+        <Logo />
         {/* // <imageLinkForm />
         // <faceRecognition /> */}
         
