@@ -8,10 +8,10 @@ function App() {
 
   return (
     <>
-      <div>
-        
-        <Navigation />
+      <div className='boxing'>
         <Logo />
+        <Navigation />
+       
         {/* // <imageLinkForm />
         // <faceRecognition /> */}
         

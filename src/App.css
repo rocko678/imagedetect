@@ -4,3 +4,10 @@
   padding: 2rem;
   text-align: center;
 }
+
+.boxing {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
