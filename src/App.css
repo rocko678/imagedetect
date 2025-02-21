@@ -1,13 +1,8 @@
-#root {
-  max-width: 1280px;
-  margin: 0;
-  padding: 2rem;
-  text-align: center;
-}
-
 .boxing {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-
+  margin: 8px;
+}
+.center {
+  display: flex;
+  justify-content: center;
 }

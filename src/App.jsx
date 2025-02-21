@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import Navigation from './Components/Navigation/Navigation';
+import Navigation from './Components/Navigation/navigation';
 import Logo from './Components/Logo/Logo';
+import ImageLinkForm from './Components/ImageLinkForm/ImageLinkForm';
 import './App.css'
 
 function App() {
@@ -8,11 +9,18 @@ function App() {
 
   return (
     <>
-      <div className='boxing'>
+      <div>
+        <div className='boxing'>
         <Logo />
         <Navigation />
-       
-        {/* // <imageLinkForm />
+        </div>
+        
+        <div>
+        <ImageLinkForm />
+        </div>
+        
+
+        {/* // 
         // <faceRecognition /> */}
         
       </div>
